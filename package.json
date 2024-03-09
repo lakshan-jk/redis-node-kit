@@ -1,14 +1,29 @@
 {
     "name": "redis-node-kit",
     "version": "1.0.0",
-    "description": "Example project with Redis replication using JavaScript",
-    "main": "server.js",
+    "description": "Node.js application with Redis caching",
+    "main": "src/app.js",
     "scripts": {
-        "dev": "node server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node src/app.js"
     },
     "dependencies": {
         "express": "^4.18.2",
-        "ioredis": "^4.17.3"
-    }
+        "ioredis": "^5.3.2"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lakshan-jk/redis-node-kit"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "redis",
+        "caching"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "private": true
 }
